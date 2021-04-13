@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>根页面</title>
+</head>
+<body>
+  <h2>控制根框架跳转</h2>
+  <a href='son.html'>根框架->son.html(_self)</a>
+  <a href='son.html' target='_blank'>根框架->son.html(_blank)</a>
+  <a href='son.html' target='_parent'>根框架->son.html(_parent)</a>
+  <a href='son.html' target='_top'>根框架->son.html(_top)</a>
+  <h2>控制子框架跳转</h2>
+  <a href='son.html' target='son'>子框架->son.html</a>
+  <a href='https://www.baidu.com/' target='son'>子框架->百度</a>
+  <iframe name='son' src='son.html' width='100%' height='600px' frameborder='0' />
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>子页面</title>
+</head>
+<body style='background:red'>
+  <h1>子框架红色</h1>
+  <h2>控制子框架跳转</h2>
+  <a href='grandson.html'>子框架->grandson.html(_self)</a>
+  <a href='grandson.html' target='_blank'>子框架->grandson.html(_blank)</a>
+  <a href='grandson.html' target='_parent'>子框架->grandson.html(_parent)</a>
+  <a href='grandson.html' target='_top'>子框架->grandson.html(_top)</a>
+  <h2>控制孙框架跳转</h2>
+  <a href='grandson.html' target='grandson'>孙框架->grandson.html</a>
+  <a href='https://www.baidu.com/' target='grandson'>孙框架->百度</a>
+  <iframe name='grandson' src='grandson.html' width='100%' height='200px' frameborder='0' />
+</body>
+</html>
